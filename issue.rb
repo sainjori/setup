@@ -1,4 +1,4 @@
-class Issue < ActiveRecord::Base
+	class Issue < ActiveRecord::Base
 	attr_accessible :description, :no_followers, :title, :tags
 
 	validates_presence_of :title
